@@ -1,0 +1,16 @@
+.container::after{
+    background-color: aqua;
+}
+.container::before{
+    background-color: red;
+}
+.container::hover{
+    background-color: green;
+    content: 'baraka';
+}
+
+.container{
+    background-color: yellowgreen;
+    height: 20px;
+    width: 20px;
+}
